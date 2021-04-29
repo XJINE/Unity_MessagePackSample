@@ -1,12 +1,6 @@
-# Unity_MessagePackSample
+using UnityEngine;
+using MessagePack;
 
-This repository provides simplest sample for [MessagePack-CSharp](https://github.com/neuecc/MessagePack-CSharp).
-
-MessagePack resources are licensed under the other licence (Not same as this repository's one).
-
-## Example
-
-```
 [MessagePackObject, System.Serializable]
 public class SampleMessagePackObject
 {
@@ -39,4 +33,3 @@ public class SerializeDeserializeSample : MonoBehaviour
         GUILayout.Label("DeSerializedObject Hash : " + deserializedObject.GetHashCode());
     }
 }
-```
