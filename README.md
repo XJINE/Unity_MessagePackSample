@@ -1,12 +1,12 @@
 # Unity_MessagePackSample
 
-This repository provides simplest sample for [MessagePack-CSharp](https://github.com/neuecc/MessagePack-CSharp).
+This repository provides simplest sample of [MessagePack-CSharp](https://github.com/neuecc/MessagePack-CSharp).
 
 MessagePack resources are licensed under the other licence (Not same as this repository's one).
 
 ## Example
 
-```
+```csharp
 [MessagePackObject, System.Serializable]
 public class SampleMessagePackObject
 {
