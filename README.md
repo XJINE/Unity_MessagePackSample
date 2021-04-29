@@ -6,7 +6,7 @@ MessagePack resources are licensed under the other licence (Not same as this rep
 
 ## Example
 
-```
+```csharp
 [MessagePackObject, System.Serializable]
 public class SampleMessagePackObject
 {
