@@ -4,10 +4,11 @@ using MessagePack;
 [MessagePackObject, System.Serializable]
 public class SampleMessagePackObject
 {
-    [Key(0)] public int     id;
-    [Key(1)] public float   value;
-    [Key(2)] public string  name;
-    [Key(3)] public Vector3 position;
+    [Key(0)]       public int     id;
+    [Key(1)]       public float   value;
+    [Key(2)]       public string  name;
+    [IgnoreMember] public string  ignored;
+    [Key(3)]       public Vector3 position;
 
     // NOTE:
     // public string keyLess;

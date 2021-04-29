@@ -170,11 +170,13 @@ MonoBehaviour:
     id: 123
     value: 456.789
     name: Name
+    ignored: Ignored
     position: {x: 0.1, y: 0.2, z: 0.3}
   deserializedObject:
     id: 555
     value: 333
     name: PIYO
+    ignored: PIYO
     position: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
